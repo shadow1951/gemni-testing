@@ -20,7 +20,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(helmet());
 app.use(express.json());
-app.post("/", middleware);
+app.post("/makeRequest", middleware);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
