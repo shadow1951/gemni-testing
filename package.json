@@ -1,0 +1,28 @@
+{
+  "name": "gemni-testing",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon server.mjs",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadow1951/gemni-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shadow1951/gemni-testing/issues"
+  },
+  "homepage": "https://github.com/shadow1951/gemni-testing#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^0.13.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
